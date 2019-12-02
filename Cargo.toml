@@ -15,5 +15,5 @@ name = "freetype"
 crate-type = ["rlib"]
 
 [dependencies]
-servo-freetype-sys = { version = "4.0.2", optional = true }
+servo-freetype-sys = { git = "https://github.com/cmr/libfreetype2", branch = "web", optional = true }
 libc = "0.2"
